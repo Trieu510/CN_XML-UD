@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders xmlns:order="http://company.com/order" xmlns:prod="http://company.com/product">
+
+    <!-- Đơn hàng 1 -->
+    <order:order id="O001" customer="Nguyễn Minh Triều" date="2025-03-02">
+        <prod:item id="P001" quantity="2" price="500">
+            <prod:name>Chuột Lenovo</prod:name>
+        </prod:item>
+        <prod:item id="P002" quantity="1" price="1000">
+            <prod:name>Laptop Ausus</prod:name>
+        </prod:item>
+        <prod:item id="P003" quantity="1" price="2000">
+            <prod:name>Máy Tính Bảng SamSung</prod:name>
+        </prod:item>
+    </order:order>
+
+    <!-- Đơn hàng 2 -->
+    <order:order id="O002" customer="Thái Vân A" date="2025-03-05">
+        <prod:item id="P004" quantity="3" price="200">
+            <prod:name>Tai nghe Bluetooth</prod:name>
+        </prod:item>
+        <prod:item id="P005" quantity="2" price="1500">
+            <prod:name>Máy tính bảng iPad</prod:name>
+        </prod:item>
+        <prod:item id="P006" quantity="1" price="800">
+            <prod:name>Màn hình LG</prod:name>
+        </prod:item>
+        <prod:item id="P007" quantity="1" price="1000">
+            <prod:name>Sạc Nhanh IPhone</prod:name>
+        </prod:item>
+    </order:order>
+
+</orders>
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lop>
+    <sinhvien>
+        <id>SV001</id>
+        <name>Nguyễn Minh Triều</name>
+        <subjects>
+            <subject>
+                <subject_name>Toán</subject_name>
+                <score>10</score>
+            </subject>
+            <subject>
+                <subject_name>Lý</subject_name>
+                <score>10</score>
+            </subject>
+            <subject>
+                <subject_name>Hóa</subject_name>
+                <score>10</score>
+            </subject>
+        </subjects>
+    </sinhvien>
+
+    <sinhvien>
+        <id>SV002</id>
+        <name>Trần Thị B</name>
+        <subjects>
+            <subject>
+                <subject_name>Toán</subject_name>
+                <score>9.0</score>
+            </subject>
+            <subject>
+                <subject_name>Văn</subject_name>
+                <score>8.5</score>
+            </subject>
+            <subject>
+                <subject_name>Anh</subject_name>
+                <score>7.5</score>
+            </subject>
+        </subjects>
+    </sinhvien>
+
+    <sinhvien>
+        <id>SV003</id>
+        <name>Lê Văn C</name>
+        <subjects>
+            <subject>
+                <subject_name>Toán</subject_name>
+                <score>6.5</score>
+            </subject>
+            <subject>
+                <subject_name>Tin học</subject_name>
+                <score>9.0</score>
+            </subject>
+            <subject>
+                <subject_name>Vật lý</subject_name>
+                <score>7.5</score>
+            </subject>
+        </subjects>
+    </sinhvien>
+
+    <sinhvien>
+        <id>SV004</id>
+        <name>Thái Vân A</name>
+        <subjects>
+            <subject>
+                <subject_name>Toán</subject_name>
+                <score>7.5</score>
+            </subject>
+            <subject>
+                <subject_name>Tin học</subject_name>
+                <score>9.0</score>
+            </subject>
+            <subject>
+                <subject_name>Vật lý</subject_name>
+                <score>6.5</score>
+            </subject>
+        </subjects>
+    </sinhvien>
+</lop>

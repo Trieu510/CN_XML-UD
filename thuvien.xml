@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thuvien>
+    <sach>
+        <title>Công Nghệ XML Và Ứng Dụng</title>
+        <author>Nguyễn Minh Triều</author>
+        <year>2025</year>
+        <genre>Giáo trình</genre>
+    </sach>
+
+    <sach>
+        <title>Trí Tuệ Nhân Tạo và Ứng Dụng</title>
+        <author>Trần Thị B</author>
+        <year>2024</year>
+        <genre>Công nghệ</genre>
+    </sach>
+
+    <sach>
+        <title>Lập Trình Web Nâng Cao</title>
+        <author>Nguyễn Văn C</author>
+        <year>2000</year>
+        <genre>Giáo Án</genre>
+    </sach>
+
+    <sach>
+        <title>Ông Lão Đánh Cá Và Con Cá Vàng</title>
+        <author>Nguyễn Meo Meo</author>
+        <year>2004</year>
+        <genre>Truyện Tranh</genre>
+    </sach>
+</thuvien>
