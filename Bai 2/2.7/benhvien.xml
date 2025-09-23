@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hospital xmlns="http://example.com/hospital"
+          xmlns:pat="http://example.com/patient"
+          xmlns:doc="http://example.com/doctor"
+          xmlns:app="http://example.com/appointment">
+
+    <!-- Cuộc hẹn 1 -->
+    <app:appointment id="A001" date="2025-03-05" status="Đã khám">
+        <pat:patient id="P001">
+            <pat:name>Nguyễn Văn A</pat:name>
+            <pat:dob>1990-07-15</pat:dob>
+        </pat:patient>
+        <pat:patient id="P002">
+            <pat:name>Trần Thị C</pat:name>
+            <pat:dob>2000-02-20</pat:dob>
+        </pat:patient>
+        <doc:doctor id="D001">
+            <doc:name>Nguyễn Minh Triều</doc:name>
+            <doc:specialty>Ngoại khoa</doc:specialty>
+        </doc:doctor>
+    </app:appointment>
+
+    <!-- Cuộc hẹn 2 -->
+    <app:appointment id="A002" date="2025-03-10" status="Chưa khám">
+        <pat:patient id="P003">
+            <pat:name>Lê Văn D</pat:name>
+            <pat:dob>1988-11-05</pat:dob>
+        </pat:patient>
+        <pat:patient id="P004">
+            <pat:name>Phạm Thị E</pat:name>
+            <pat:dob>2000-01-12</pat:dob>
+        </pat:patient>
+        <doc:doctor id="D002">
+            <doc:name>Thái Vân A</doc:name>
+            <doc:specialty>Sản khoa</doc:specialty>
+        </doc:doctor>
+    </app:appointment>
+
+    <!-- Cuộc hẹn 3 -->
+    <app:appointment id="A003" date="2025-03-15" status="Đã khám">
+        <pat:patient id="P005">
+            <pat:name>Hoàng Văn G</pat:name>
+            <pat:dob>1979-06-25</pat:dob>
+        </pat:patient>
+        <pat:patient id="P006">
+            <pat:name>Đỗ Thị H</pat:name>
+            <pat:dob>1992-09-30</pat:dob>
+        </pat:patient>
+        <doc:doctor id="D003">
+            <doc:name>Phan Thị I</doc:name>
+            <doc:specialty>Tim mạch</doc:specialty>
+        </doc:doctor>
+    </app:appointment>
+
+</hospital>

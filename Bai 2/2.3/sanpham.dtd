@@ -1,0 +1,9 @@
+<!ELEMENT sanpham_store (sanpham+)>
+
+<!ELEMENT sanpham EMPTY>
+<!ATTLIST sanpham
+    id       ID     #REQUIRED
+    category CDATA  #REQUIRED
+    price    CDATA  #REQUIRED
+    currency CDATA  #REQUIRED
+>
