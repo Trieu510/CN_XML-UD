@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="orders.xsd">
+
+    <order id="O001">
+        <product id="P001">
+            <name>Chuột không dây</name>
+            <quantity>2</quantity>
+        </product>
+        <product id="P002">
+            <name>Bàn phím cơ</name>
+            <quantity>1</quantity>
+        </product>
+    </order>
+
+    <order id="O002">
+        <product id="P003">
+            <name>Màn hình LCD</name>
+            <quantity>3</quantity>
+        </product>
+        <product id="P004">
+            <name>Ổ cứng SSD</name>
+            <quantity>2</quantity>
+        </product>
+        <product id="P005">
+            <name>Tai nghe</name>
+            <quantity>5</quantity>
+        </product>
+    </order>
+
+    <order id="O003">
+        <product id="P006">
+            <name>Điện thoại</name>
+            <quantity>1</quantity>
+        </product>
+        <product id="P007">
+            <name>Sạc nhanh</name>
+            <quantity>2</quantity>
+        </product>
+    </order>
+
+</orders>

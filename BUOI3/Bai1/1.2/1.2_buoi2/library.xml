@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="library.xsd">
+
+    <book id="B001">
+        <title>Lập trình Python cơ bản</title>
+        <author>Nguyễn Minh Triều</author>
+        <year>2020</year>
+        <genre>Công nghệ thông tin</genre>
+    </book>
+
+    <book id="B002">
+        <title>Phân tích thiết kế hệ thống</title>
+        <author>Trần Thị B</author>
+        <year>2019</year>
+        <genre>Khoa học máy tính</genre>
+    </book>
+
+    <book id="B003">
+        <title>Toán rời rạc ứng dụng</title>
+        <author>Lê Văn C</author>
+        <year>2022</year>
+        <genre>Toán học</genre>
+    </book>
+
+    <book id="B004">
+        <title>Tiếng Anh chuyên ngành CNTT</title>
+        <author>Phạm Thị D</author>
+        <year>2021</year>
+        <genre>Ngôn ngữ</genre>
+    </book>
+
+</library>
