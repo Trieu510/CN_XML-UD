@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DSSV xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="DSSV.xsd">
+
+    <!-- ===== DANH SÁCH KHOA ===== -->
+    <KHOA>
+        <MA>K01</MA>
+        <TEN>Công Nghệ Thông Tin</TEN>
+    </KHOA>
+    <KHOA>
+        <MA>K02</MA>
+        <TEN>Kinh Tế</TEN>
+    </KHOA>
+    <KHOA>
+        <MA>K03</MA>
+        <TEN>Kỹ Thuật</TEN>
+    </KHOA>
+    <KHOA>
+        <MA>K04</MA>
+        <TEN>Ngôn Ngữ Anh</TEN>
+    </KHOA>
+    <KHOA>
+        <MA>K05</MA>
+        <TEN>Điện - Điện Tử</TEN>
+    </KHOA>
+    <KHOA>
+        <MA>K06</MA>
+        <TEN>Du Lịch</TEN>
+    </KHOA>
+    <KHOA>
+        <MA>K07</MA>
+        <TEN>Nông Nghiệp</TEN>
+    </KHOA>
+
+    <!-- ===== DANH SÁCH LỚP ===== -->
+    <LOP>
+        <MA>L01</MA>
+        <TEN>CNPM1</TEN>
+        <MAKHOA>K01</MAKHOA>
+    </LOP>
+    <LOP>
+        <MA>L02</MA>
+        <TEN>KT01</TEN>
+        <MAKHOA>K02</MAKHOA>
+    </LOP>
+    <LOP>
+        <MA>L03</MA>
+        <TEN>KT02</TEN>
+        <MAKHOA>K02</MAKHOA>
+    </LOP>
+    <LOP>
+        <MA>L04</MA>
+        <TEN>DL01</TEN>
+        <MAKHOA>K06</MAKHOA>
+    </LOP>
+    <LOP>
+        <MA>L05</MA>
+        <TEN>NN01</TEN>
+        <MAKHOA>K04</MAKHOA>
+    </LOP>
+    <LOP>
+        <MA>L06</MA>
+        <TEN>KT03</TEN>
+        <MAKHOA>K03</MAKHOA>
+    </LOP>
+    <LOP>
+        <MA>L07</MA>
+        <TEN>CNPM2</TEN>
+        <MAKHOA>K01</MAKHOA>
+    </LOP>
+
+    <!-- ===== DANH SÁCH SINH VIÊN ===== -->
+    <SINHVIEN>
+        <MSSV>SV001</MSSV>
+        <HOTEN>Nguyen Van A</HOTEN>
+        <EMAIL>a@gmail.com</EMAIL>
+        <DIACHI>Can Tho</DIACHI>
+        <SDT>0123456789</SDT>
+        <MALOP>L01</MALOP>
+    </SINHVIEN>
+
+    <SINHVIEN>
+        <MSSV>SV002</MSSV>
+        <HOTEN>Le Thi B</HOTEN>
+        <EMAIL>b@gmail.com</EMAIL>
+        <DIACHI>Hau Giang</DIACHI>
+        <SDT>0987654321</SDT>
+        <MALOP>L02</MALOP>
+    </SINHVIEN>
+
+    <SINHVIEN>
+        <MSSV>SV003</MSSV>
+        <HOTEN>Tran Van C</HOTEN>
+        <EMAIL>c@gmail.com</EMAIL>
+        <DIACHI>Soc Trang</DIACHI>
+        <SDT>0909123456</SDT>
+        <MALOP>L03</MALOP>
+    </SINHVIEN>
+
+    <SINHVIEN>
+        <MSSV>SV004</MSSV>
+        <HOTEN>Pham Thi D</HOTEN>
+        <EMAIL>d@gmail.com</EMAIL>
+        <DIACHI>Vinh Long</DIACHI>
+        <SDT>0911222333</SDT>
+        <MALOP>L04</MALOP>
+    </SINHVIEN>
+
+    <SINHVIEN>
+        <MSSV>SV005</MSSV>
+        <HOTEN>Vo Van E</HOTEN>
+        <EMAIL>e@gmail.com</EMAIL>
+        <DIACHI>Ben Tre</DIACHI>
+        <SDT>0933444555</SDT>
+        <MALOP>L05</MALOP>
+    </SINHVIEN>
+
+    <SINHVIEN>
+        <MSSV>SV006</MSSV>
+        <HOTEN>Nguyen Thi F</HOTEN>
+        <EMAIL>f@gmail.com</EMAIL>
+        <DIACHI>Can Tho</DIACHI>
+        <SDT>0966777888</SDT>
+        <MALOP>L06</MALOP>
+    </SINHVIEN>
+
+    <SINHVIEN>
+        <MSSV>SV007</MSSV>
+        <HOTEN>Le Van G</HOTEN>
+        <EMAIL>g@gmail.com</EMAIL>
+        <DIACHI>Ca Mau</DIACHI>
+        <SDT>0977666555</SDT>
+        <MALOP>L07</MALOP>
+    </SINHVIEN>
+
+</DSSV>
